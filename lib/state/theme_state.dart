@@ -515,7 +515,6 @@ class _ThemeState extends State<ThemeMain> {
 
     if (themeListItmes.length > 3) {
       print("이미지 개수 4부터 : " + themeListItmes.length.toString());
-      //3보다 클 경우에(0 1 2 / 3 4 ) 가장 마지막 배열을 삭제함.
       themeListItmes.removeLast();
 
       //배열 저장 후, 현재 마지막으로 되어있는 이미지를 배경으로 설정.
